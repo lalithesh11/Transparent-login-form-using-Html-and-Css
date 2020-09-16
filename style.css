@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Playball&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(pexels-bill-emrich-230794.jpg) no-repeat center center fixed;
+    background: cover;
+    background-size: 100%;
+    color: white;
+}
+
+.container{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 23%;
+    left: 40%;
+}
+
+.container h1{
+    padding: 10px 0px;
+    border-bottom: 4px solid purple;
+    margin-bottom: 43px;
+    display: inline-block;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.box{
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+    border-bottom: 2px solid purple;
+}
+.container input{
+    width: 75%;
+    /* margin: 0px 3px; */
+    outline: none;
+    padding: 4px;
+    margin-left: 5px;
+    background: none;
+    border:none;
+    padding: 11px;
+    font-family: 'Playball', cursive;
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+.box i{
+    /* margin: 2px 6px; */
+}
+.signin{
+   
+    margin-left: 95px;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid purple;
+    outline: none;
+    border-radius: 8px;
+    background: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.signup{
+   
+    margin-left: 30px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid purple;
+    outline: none;
+    border-radius: 8px;
+    background: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.signin:hover{
+    background-color: white;
+    color: purple;
+    opacity: 0.5;
+}
+.signup:hover{
+    background-color: white;
+    color: purple;
+    opacity: 0.5;
+}
